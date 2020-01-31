@@ -15,8 +15,5 @@ $(document).ready(function() {
     'error': function (request, state, errors) {
       alert('errore' + errors);
     }
-  }
-  );
-
-
+  });
 });
